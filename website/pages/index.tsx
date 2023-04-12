@@ -7,8 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Digit Recognizer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Hand Written Digit Recognizer</title>
       </Head>
 
       <Container>
