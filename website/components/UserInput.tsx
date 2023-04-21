@@ -48,22 +48,20 @@ const UserInput = () => {
 
   return (
     <VStack spacing={10}>
-      <HStack spacing = '200'>
-        <Stack spacing={1.5} align={'center'}>
-          <Text  fontSize="30px" as="b">
-            Input 
+      <HStack spacing="200">
+        <Stack spacing={1.5} align={"center"}>
+          <Text fontSize="30px" as="b">
+            Input
           </Text>
 
           <Sketchpad
-          canvasRef={canvasRef}
-          id="image-drawer"
-          width={256}
-          height={256} 
+            canvasRef={canvasRef}
+            id="image-drawer"
+            width={256}
+            height={256}
           />
 
-          <Text>
-            Draw a digit 
-          </Text>
+          <Text>Draw a digit</Text>
         </Stack>
 
         <Prediction prediction={prediction} confidence={confidence} />
