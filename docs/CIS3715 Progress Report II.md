@@ -1,6 +1,6 @@
 Eric Nguyen, Mary Le
 
-Professor Gao
+Professor Hongchang Gao
 
 CIS 3715 - Principles of Data Science
 
