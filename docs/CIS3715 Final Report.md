@@ -6,7 +6,7 @@ CIS 3715 - Principles of Data Science
 
 April 28, 2023
 
-# Final Report -- Handwritten Digit Recognition
+# Final Report &ndash; Handwritten Digit Recognition
 
 **Introduction**
 
@@ -25,7 +25,7 @@ The MNIST data set is a great introduction to computer vision because all the da
 For our project, we chose the _Digit Recognizer_ challenge on Kaggle \[4\] where the challenge is to correctly identify the digits as provided in the MNIST data set.
 For the purposes of the Kaggle competition, 42,000 images are used for training and 28,000 images are used for testing with the images provided as comma-separated value (CSV) files, amounting to approximately 128 MB in total.
 The first column of the Kaggle train set specifies the label of the digit and the remaining 784 columns represent the image's pixel grayscale values which range from 0 to 255.
-The Kaggle test set follows the same format as the train set except it excludes the label column---this is what we use to generate our submission file.
+The Kaggle test set follows the same format as the train set except it excludes the label column&mdash;this is what we use to generate our submission file.
 In our submission to the Kaggle competition, we will generate a CSV file with an _ImageId_ column and a _Label_ column with our predictions for each image which will be scored based on accuracy.
 
 In a review of the literature regarding handwritten digit recognition of the MNIST data set, we find that the best-performing approaches for this task use a majority voting ensemble of convolutional neural networks (CNN) with state-of-the-art results achieving 99.91% accuracy on the MNIST test data set \[5\].
